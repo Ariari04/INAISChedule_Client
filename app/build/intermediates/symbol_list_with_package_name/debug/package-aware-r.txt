@@ -2624,6 +2624,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_profileFragment_to_changePasswordFragment
 id action_text
 id actions
 id activity_chooser_view_content
@@ -2652,6 +2653,7 @@ id beginning
 id bestChoice
 id blocking
 id bottom
+id bottom_navigation_view
 id bounce
 id bounceBoth
 id bounceEnd
@@ -2667,6 +2669,8 @@ id center_vertical
 id chain
 id chain2
 id chains
+id changePasswordButton
+id changePasswordFragment
 id checkbox
 id checked
 id chip
@@ -2683,6 +2687,7 @@ id clockwise
 id closest
 id collapseActionView
 id compress
+id confirmNewPasswordEditText
 id confirm_button
 id constraint
 id container
@@ -2736,6 +2741,8 @@ id east
 id edit_query
 id elastic
 id emailEditText
+id emailInputLayout
+id emailTextView
 id emptyTextView
 id end
 id endToStart
@@ -2761,6 +2768,7 @@ id ghost_view_holder
 id gone
 id graph
 id graph_wrap
+id groupTextView
 id group_divider
 id grouping
 id groups
@@ -2794,6 +2802,7 @@ id jumpToEnd
 id jumpToStart
 id labeled
 id layout
+id lectureSwitch
 id left
 id leftToRight
 id legacy
@@ -2862,7 +2871,9 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nameTextView
 id nav_controller_view_tag
+id nav_host_fragment
 id nav_host_fragment_container
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
@@ -2874,6 +2885,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id newPasswordEditText
 id noScroll
 id noState
 id none
@@ -2883,6 +2895,7 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id off
+id oldPasswordEditText
 id on
 id onInterceptTouchReturnSwipe
 id outline
@@ -2895,6 +2908,7 @@ id parentPanel
 id parentRelative
 id parent_matrix
 id passwordEditText
+id passwordInputLayout
 id password_toggle
 id path
 id pathRelative
@@ -2903,6 +2917,7 @@ id percent
 id pin
 id position
 id postLayout
+id profileFragment
 id progress_circular
 id progress_horizontal
 id radio
@@ -2913,6 +2928,7 @@ id right
 id rightToLeft
 id right_icon
 id right_side
+id roleTextView
 id roomTextView
 id rounded
 id row_index_key
@@ -2921,6 +2937,7 @@ id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
 id scale
+id scheduleFragment
 id screen
 id scroll
 id scrollIndicatorDown
@@ -2959,6 +2976,7 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
+id splashVideoView
 id spline
 id split_action_bar
 id spread
@@ -2979,8 +2997,10 @@ id stop
 id stretch
 id subjectTextView
 id submenuarrow
+id submitChangePasswordButton
 id submit_area
 id supportScrollUp
+id surnameTextView
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3144,6 +3164,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
 layout activity_main
+layout activity_splash
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3161,6 +3182,9 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout event_list_item
+layout fragment_change_password
+layout fragment_profile
+layout fragment_schedule
 layout item_day
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
@@ -3233,6 +3257,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+menu bottom_nav_menu
 menu example_menu
 menu example_menu2
 mipmap ic_banner
@@ -3240,7 +3265,9 @@ mipmap ic_banner_foreground
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
+navigation nav_graph
 plurals mtrl_badge_content_description
+raw splash_video
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

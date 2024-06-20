@@ -1,5 +1,6 @@
 package com.example.scheduleviewer
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
@@ -57,9 +58,15 @@ class LoginActivity : AppCompatActivity() {
                 response.body?.string()?.let { responseBody ->
                     Log.d("LoginActivity", "Response: $responseBody")
                     val token = JSONObject(responseBody).getString("token")
-                    val intent = Intent(this@LoginActivity, MainActivity::class.java).apply {
-                        putExtra("token", token)
+
+                    // Сохранение токена в SharedPreferences
+                    val sharedPreferences = getSharedPreferences("APP_PREFS", Context.MODE_PRIVATE)
+                    with(sharedPreferences.edit()) {
+                        putString("TOKEN", token)
+                        apply()
                     }
+
+                    val intent = Intent(this@LoginActivity, MainActivity::class.java)
                     startActivity(intent)
                     finish()
                 } ?: run {

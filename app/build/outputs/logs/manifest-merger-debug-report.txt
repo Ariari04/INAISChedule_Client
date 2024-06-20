@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:2:1-31:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.1] C:\Users\User\.gradle\caches\transforms-3\ff0122d416002720f591d766aebdfd32\transformed\navigation-fragment-ktx-2.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment:2.4.1] C:\Users\User\.gradle\caches\transforms-3\14c762c150eaaa7b538ba8df2e875d71\transformed\navigation-fragment-2.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.4.1] C:\Users\User\.gradle\caches\transforms-3\2c4cdd017fffd864043bcd7f2e792a42\transformed\fragment-ktx-1.4.1\AndroidManifest.xml:17:1-24:12
@@ -61,20 +61,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\User\.gradle\cac
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\User\.gradle\caches\transforms-3\bf6f6efc009e5e544b348e31144b4b9d\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\User\.gradle\caches\transforms-3\563980873d44ac8bc5a14f3a3575b789\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\User\.gradle\caches\transforms-3\1de1497f5fa1cb6951fa9dd81ed8fefd\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:2:1-31:12
 	package
 		ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:2:1-31:12
 		INJECTED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:2:1-31:12
 		INJECTED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:2:11-69
@@ -83,7 +83,7 @@ ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\Andro
 	android:name
 		ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:6:5-24:19
+ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:6:5-29:19
 MERGED from [androidx.window:window:1.0.0] C:\Users\User\.gradle\caches\transforms-3\74f50b69145295b80742214985aecc0c\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0] C:\Users\User\.gradle\caches\transforms-3\74f50b69145295b80742214985aecc0c\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\User\.gradle\caches\transforms-3\18da4e4d9b1e0957ab9cb94c1610aaba\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
@@ -116,26 +116,32 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\User\.gradle\cache
 		ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:13:9-52
 	android:networkSecurityConfig
 		ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:14:9-69
-activity#com.example.scheduleviewer.LoginActivity
-ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:16:9-22:20
+activity#com.example.scheduleviewer.SplashActivity
+ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:16:9-24:20
 	android:exported
-		ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:17:13-36
+		ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:19:13-36
+	android:theme
+		ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:18:13-69
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:16:19-48
+		ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:17:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:18:13-21:29
+ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:20:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.example.scheduleviewer.LoginActivity
+ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:25:9-26:20
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:25:19-48
 activity#com.example.scheduleviewer.MainActivity
-ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:23:9-50
+ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:27:9-28:15
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:23:19-47
+		ADDED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:27:19-47
 uses-sdk
 INJECTED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml

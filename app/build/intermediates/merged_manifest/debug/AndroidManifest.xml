@@ -23,13 +23,16 @@
         android:testOnly="true"
         android:theme="@style/Theme.ScheduleViewer" >
         <activity
-            android:name="com.example.scheduleviewer.LoginActivity"
-            android:exported="true" >
+            android:name="com.example.scheduleviewer.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="com.example.scheduleviewer.LoginActivity" >
         </activity>
         <activity android:name="com.example.scheduleviewer.MainActivity" />
 
