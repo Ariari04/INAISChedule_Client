@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.scheduleviewer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:6:5-24:19
+14        android:allowBackup="true"
+14-->C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:7:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\User\.gradle\caches\transforms-3\234a538a20b20407a3c9b7e7a53bb83d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:extractNativeLibs="false"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:8:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:10:9-41
+20        android:networkSecurityConfig="@xml/network_security_config"
+20-->C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:14:9-69
+21        android:roundIcon="@mipmap/ic_launcher_foreground"
+21-->C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:11:9-59
+22        android:supportsRtl="true"
+22-->C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:12:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.ScheduleViewer" >
+24-->C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:13:9-52
+25        <activity
+25-->C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:16:9-22:20
+26            android:name="com.example.scheduleviewer.LoginActivity"
+26-->C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:16:19-48
+27            android:exported="true" >
+27-->C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:17:13-36
+28            <intent-filter>
+28-->C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:18:13-21:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:19:17-69
+29-->C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:19:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:20:17-77
+31-->C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:20:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity android:name="com.example.scheduleviewer.MainActivity" />
+34-->C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:23:9-50
+34-->C:\Users\User\AndroidStudioProjects\ScheduleViewer\app\src\main\AndroidManifest.xml:23:19-47
+35
+36        <uses-library
+36-->[androidx.window:window:1.0.0] C:\Users\User\.gradle\caches\transforms-3\74f50b69145295b80742214985aecc0c\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+37            android:name="androidx.window.extensions"
+37-->[androidx.window:window:1.0.0] C:\Users\User\.gradle\caches\transforms-3\74f50b69145295b80742214985aecc0c\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+38            android:required="false" />
+38-->[androidx.window:window:1.0.0] C:\Users\User\.gradle\caches\transforms-3\74f50b69145295b80742214985aecc0c\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+39        <uses-library
+39-->[androidx.window:window:1.0.0] C:\Users\User\.gradle\caches\transforms-3\74f50b69145295b80742214985aecc0c\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+40            android:name="androidx.window.sidecar"
+40-->[androidx.window:window:1.0.0] C:\Users\User\.gradle\caches\transforms-3\74f50b69145295b80742214985aecc0c\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+41            android:required="false" />
+41-->[androidx.window:window:1.0.0] C:\Users\User\.gradle\caches\transforms-3\74f50b69145295b80742214985aecc0c\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+42
+43        <provider
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\441d4fc037de6fb441500e8a56b36e60\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+44            android:name="androidx.startup.InitializationProvider"
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\441d4fc037de6fb441500e8a56b36e60\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+45            android:authorities="com.example.scheduleviewer.androidx-startup"
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\441d4fc037de6fb441500e8a56b36e60\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+46            android:exported="false" >
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\441d4fc037de6fb441500e8a56b36e60\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+47            <meta-data
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\441d4fc037de6fb441500e8a56b36e60\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\441d4fc037de6fb441500e8a56b36e60\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+49                android:value="androidx.startup" />
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\441d4fc037de6fb441500e8a56b36e60\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+50            <meta-data
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\User\.gradle\caches\transforms-3\46e5aed857477bc0e3c3002365c20da9\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\User\.gradle\caches\transforms-3\46e5aed857477bc0e3c3002365c20da9\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+52                android:value="androidx.startup" />
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\User\.gradle\caches\transforms-3\46e5aed857477bc0e3c3002365c20da9\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+53        </provider>
+54    </application>
+55
+56</manifest>
